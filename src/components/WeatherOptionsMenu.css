@@ -1,0 +1,11 @@
+.weathermenu__container {
+  display: flex;
+  flex-direction: row;
+  margin: 5% 30%;
+  background-color: aquamarine;
+  justify-content: space-around;
+}
+
+.weathermenu_item {
+  background-color: coral;
+}

@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #63666a;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.aux {
+  /* background-color: blue; */
+  padding-left: 2em;
+}
+.aux2 {
+  /* background-color: azure; */
+  padding-left: 2em;
+}
