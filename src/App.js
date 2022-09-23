@@ -37,9 +37,6 @@ function App() {
       ) : (
         <div></div>
       )}
-      {/* <Weather weatherData={data} /> 
-      <WeatherOptionsMenu />
-      */}
       <footer>Page created by monstera_pot</footer>
     </div>
   );

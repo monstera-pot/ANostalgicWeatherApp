@@ -5,22 +5,22 @@ import windchime from "../images/windchime.jpg";
 
 const forecastOptions = [
   {
-    type: "weatherData.weather[0].description",
+    // type: `The weather is ${weatherData.weather[0].description}`,
     img: lobosmarinos,
     text: "Seawolf souvenir says:",
   },
   {
-    type: "weatherData.main.temp",
+    // type: `The temperature is${weatherData.main.temp}º today`,
     img: uhr,
     text: "Weather house says:",
   },
   {
-    type: "weatherData.main.humidity",
+    // type: `Humidity is ${weatherData.main.humidity}%`,
     img: rodilla,
     text: "Grandma's knee says:",
   },
   {
-    type: "weatherData.wind.speed",
+    // type: `The speed of the wind is ${weatherData.wind.speed} km/h`,
     img: windchime,
     text: "Shell windchime says:",
   },
