@@ -1,19 +1,30 @@
 .forecast-container {
   display: flex;
   flex-direction: column;
-  margin: 10% 30% 0;
+  margin: 10% 15% 0;
   padding: 0.5rem;
-  border-radius: 12px;
-  border: 1px solid #2a2a2a;
+  justify-content: center;
 }
 
-.forecast-container__image {
-  width: 30%;
+.forecast-cointainer___imgcontainer {
   display: block;
   margin: auto;
-  background-color: blue;
 }
-.forecast-container__text {
+
+.forecast-container__img {
+  max-height: 180px;
   margin: auto;
-  background-color: olive;
+}
+
+.forecast-container__text {
+  margin: 0 25%;
+  text-align: center;
+  flex: 1;
+}
+
+.forecast-container__location {
+  background-color: #aca79e;
+  color: #fff;
+  padding: 1% 0;
+  margin: 5% 30%;
 }

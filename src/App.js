@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header";
 import ForecastContainer from "./components/ForecastContainer";
 import { useEffect, useState } from "react";
+import Footer from "./components/Footer";
 
 function App() {
   const [long, setLong] = useState([]);
@@ -31,13 +32,13 @@ function App() {
 
   return (
     <div>
-      <Header />
+      <Header weatherData={data} />
       {typeof data.main != "undefined" ? (
         <ForecastContainer weatherData={data} />
       ) : (
         <div></div>
       )}
-      <footer>Page created by monstera_pot</footer>
+      <Footer />
     </div>
   );
 }

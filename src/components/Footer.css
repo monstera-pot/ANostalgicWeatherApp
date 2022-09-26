@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+}
+.footer-text {
+  padding-left: 4rem;
+  font-style: italic;
+  color: #b8b2a9;
+}
+
+a {
+  color: #4b68b8;
+}
