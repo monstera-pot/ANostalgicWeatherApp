@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ANostalgicWeatherApp/static/css/main.0a19db60.css",
+    "main.js": "/ANostalgicWeatherApp/static/js/main.aea47a36.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ANostalgicWeatherApp/static/js/787.28cb0dcd.chunk.js",
+    "static/media/lobosmarinos.png": "/ANostalgicWeatherApp/static/media/lobosmarinos.f0a6cfee51842f6af1d5.png",
+    "static/media/Uhr.jpg": "/ANostalgicWeatherApp/static/media/Uhr.89a49a53d70c920baff9.jpg",
+    "static/media/kneeHolding.jpg": "/ANostalgicWeatherApp/static/media/kneeHolding.2a11fd7e9cdc66dfe8af.jpg",
+    "static/media/windchime.jpg": "/ANostalgicWeatherApp/static/media/windchime.e937cd2c9f910e93610f.jpg",
+    "index.html": "/ANostalgicWeatherApp/index.html",
+    "main.0a19db60.css.map": "/ANostalgicWeatherApp/static/css/main.0a19db60.css.map",
+    "main.aea47a36.js.map": "/ANostalgicWeatherApp/static/js/main.aea47a36.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ANostalgicWeatherApp/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a19db60.css",
+    "static/js/main.aea47a36.js"
+  ]
+}
