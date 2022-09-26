@@ -17,7 +17,7 @@ function App() {
       });
 
       await fetch(
-        `https://api.openweathermap.org/data/2.5/weather/?lat=${lat}&lon=${long}&units=metric&APPID=38dfa815b211c6de8c68e75613bcc676`
+        `${process.env.REACT_APP_API_URL}/weather/?lat=${lat}&lon=${long}&units=metric&APPID=${process.env.REACT_APP_API_KEY}`
       )
         .then((res) => res.json())
         .then((res) => {
